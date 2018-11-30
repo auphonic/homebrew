@@ -17,9 +17,9 @@ class Sox < Formula
   depends_on "mad"
   depends_on "opencore-amr" => :optional
   depends_on "opusfile" => :optional
-  depends_on "libvorbis" => :optional
-  depends_on "flac" => :optional
-  depends_on "libsndfile" => :optional
+  depends_on "libvorbis"
+  depends_on "flac"
+  depends_on "libsndfile"
   depends_on "libao" => :optional
   depends_on "lame" => :optional
 
